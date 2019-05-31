@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE struts PUBLIC
+"-//Apache Software Foundation//DTD Struts Configuration 2.3//EN"
+"http://struts.apache.org/dtds/struts-2.3.dtd">
+<struts>
+
+<constant name="struts.ui.theme" value="simple" />
+	<package name="com.lovelacrosse.action" extends="struts-default">
+
+	<action name="HomeAction" class="com.lovelacrosse.action.HomeAction" method="execute">
+		<result name="success">home.jsp</result>
+	</action>
+
+	<action name="GoLoginAction" class="com.lovelacrosse.action.GoLoginAction" method="execute">
+		<result name="success">login.jsp</result>
+	</action>
+
+	<action name="LoginAction" class="com.lovelacrosse.action.LoginAction" method="execute">
+		<result name="success">home.jsp</result>
+		<result name="error">login.jsp</result>
+		<result name="goCart">cart.jsp</result>
+	</action>
+
+	<action name="ResetPasswordAction" class="com.lovelacrosse.action.ResetPasswordAction" method="execute">
+		<result name="success">resetPassword.jsp</result>
+	</action>
+
+	<action name="ResetPasswordConfirmAction" class="com.lovelacrosse.action.ResetPasswordConfirmAction" method="execute">
+		<result name="success">resetPasswordConfirm.jsp</result>
+		<result name="error">resetPassword.jsp</result>
+	</action>
+
+	<action name="ResetPasswordCompleteAction" class="com.lovelacrosse.action.ResetPasswordCompleteAction" method="execute">
+		<result name="goMyPage">myPage.jsp</result>
+		<result name="goLogin">login.jsp</result>
+		<result name="error">systemError.jsp</result>
+	</action>
+
+	<action name="LogoutAction" class="com.lovelacrosse.action.LogoutAction" method="execute">
+		<result name="success">home.jsp</result>
+	</action>
+
+	<action name="ProductListAction" class="com.lovelacrosse.action.ProductListAction" method="execute">
+		<result name="success">productAllList.jsp</result>
+	</action>
+
+	<action name="ProductCategoryAction" class="com.lovelacrosse.action.ProductCategoryAction" method="execute">
+		<result name="success">productCategory.jsp</result>
+	</action>
+
+	<action name="ProductDetailAction" class="com.lovelacrosse.action.ProductDetailAction" method="execute">
+		<result name="success">productDetail.jsp</result>
+	</action>
+
+	<action name="CreateUserAction" class="com.lovelacrosse.action.CreateUserAction" method="execute">
+		<result name="success">createUser.jsp</result>
+	</action>
+
+	<action name="CreateUserConfirmAction" class="com.lovelacrosse.action.CreateUserConfirmAction" method="execute">
+		<result name="success">createUserConfirm.jsp</result>
+		<result name="error">createUser.jsp</result>
+	</action>
+
+	<action name="CreateUserCompleteAction" class="com.lovelacrosse.action.CreateUserCompleteAction" method="execute">
+		<result name="success">createUserComplete.jsp</result>
+		<result name="error">systemError.jsp</result>
+	</action>
+
+	<action name="CartAction" class="com.lovelacrosse.action.CartAction" method="execute">
+		<result name="success">cart.jsp</result>
+	</action>
+
+	<action name="AddCartAction" class="com.lovelacrosse.action.AddCartAction" method="execute">
+		<result name="success">cart.jsp</result>
+	</action>
+
+	<action name="DeleteCartAction" class="com.lovelacrosse.action.DeleteCartAction" method="execute">
+		<result name="success">cart.jsp</result>
+	</action>
+
+	<action name="PaymentAction" class="com.lovelacrosse.action.PaymentAction" method="execute">
+		<result name="success">payment.jsp</result>
+		<result name="notLoggedIn">login.jsp</result>
+	</action>
+
+	<action name="DeleteDestinationAction" class="com.lovelacrosse.action.DeleteDestinationAction" method="execute">
+		<result name="payment">payment.jsp</result>
+		<result name="mypage">myPage.jsp</result>
+		<result name="error">systemError.jsp</result>
+	</action>
+
+	<action name="PaymentConfirmAction" class="com.lovelacrosse.action.PaymentConfirmAction" method="execute">
+		<result name="success">paymentConfirm.jsp</result>
+		<result name="error">systemError.jsp</result>
+	</action>
+
+	<action name="PaymentCompleteAction" class="com.lovelacrosse.action.PaymentCompleteAction" method="execute">
+		<result name="success">paymentComplete.jsp</result>
+		<result name="error">systemError.jsp</result>
+	</action>
+
+	<action name="CreateDestinationAction" class="com.lovelacrosse.action.CreateDestinationAction" method="execute">
+		<result name="success">createDestination.jsp</result>
+	</action>
+
+	<action name="CreateDestinationConfirmAction" class="com.lovelacrosse.action.CreateDestinationConfirmAction" method="execute">
+		<result name="success">createDestinationConfirm.jsp</result>
+		<result name="error">createDestination.jsp</result>
+	</action>
+
+	<action name="CreateDestinationCompleteAction" class="com.lovelacrosse.action.CreateDestinationCompleteAction" method="execute">
+		<result name="success">payment.jsp</result>
+		<result name="error">systemError.jsp</result>
+		<result name="goMyPage">myPage.jsp</result>
+	</action>
+
+
+	<action name="MyPageAction" class="com.lovelacrosse.action.MyPageAction" method="execute">
+		<result name="success">myPage.jsp</result>
+	</action>
+
+	<action name="ChangeUserInfoAction" class="com.lovelacrosse.action.ChangeUserInfoAction" method="execute">
+		<result name="success">changeUserInfo.jsp</result>
+	</action>
+
+	<action name="ChangeUserInfoConfirmAction" class="com.lovelacrosse.action.ChangeUserInfoConfirmAction" method="execute">
+		<result name="success">changeUserInfoConfirm.jsp</result>
+		<result name="error">changeUserInfo.jsp</result>
+	</action>
+
+	<action name="ChangeUserInfoCompleteAction" class="com.lovelacrosse.action.ChangeUserInfoCompleteAction" method="execute">
+		<result name="success">myPage.jsp</result>
+		<result name="error">systemError.jsp</result>
+	</action>
+
+	<action name="ContactAction" class="com.lovelacrosse.action.ContactAction" method="execute">
+		<result name="success">contact.jsp</result>
+	</action>
+
+	<action name="ContactConfirmAction" class="com.lovelacrosse.action.ContactConfirmAction" method="execute">
+		<result name="success">contactConfirm.jsp</result>
+	</action>
+
+	<action name="ContactCompleteAction" class="com.lovelacrosse.action.ContactCompleteAction" method="execute">
+		<result name="success">contactComplete.jsp</result>
+	</action>
+
+	<action name="CampAction" class="com.lovelacrosse.action.CampAction" method="execute">
+		<result name="success">camp.jsp</result>
+	</action>
+
+
+
+	</package>
+</struts>
