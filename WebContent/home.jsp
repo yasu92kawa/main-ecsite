@@ -46,7 +46,7 @@
                     <div class="row justify-content-center col-lg-12" style="margin-right: 0px; margin-left: 0px;">
                         <div class="text-center header-content mx-auto">
                                 <h2 class="text-info first-title mb-2">Hi.</h2>
-                                <h1 class="header-name text-white text-capitalize">We are <span class="element font-weight-bold">a best Laccrose Shop.</span></h1>
+                                <h1 class="header-name text-white text-capitalize">We are <span class="element font-weight-bold" data-elements="a best Lacrose Shop."></span></h1>
                                 <p class="text-white text-center mx-auto header-desc mt-2">アメリカ最新の商品をいち早くお届けします。<br></p>
                                 <div class="arrow bounce mb-3">
                                      <a href='<s:url action="ProductListAction"/>' class="btn btn-outline-custom btn-round inner-link">商品一覧はこちら</a>
@@ -75,7 +75,7 @@
                             <div class="carousel-caption1">
                                 <h1 class="">Let's join us!</h1>
                                 <h3 class="sliderh3 mb-5">最新の情報をいち早くお届けします</h3>
-                                <a href='<s:url action="CreateUserAction"/>'><button type="button" class="btn btn-primary btn-md">新規会員はこちら</button></a>
+                                <a href='<s:url action="CreateUserAction"/>'><button type="button" class="btn btn-primary btn-hide btn-md btn-top">新規会員はこちら</button></a>
                             </div>
                         </div>
                         <div class="item">
@@ -83,7 +83,7 @@
                             <div class="carousel-caption2">
                                     <h1 class="">Freshman camp.</h1>
                                     <h3 class="sliderh3 mb-5">新入生のための1泊２日の練習合宿</h3>
-                                    <a href='<s:url action="CampAction"/>'><button type="button" class="btn btn-success btn-md">詳細はこちら</button></a>
+                                    <a href='<s:url action="CampAction"/>'><button type="button" class="btn btn-success btn-hide btn-md btn-top">詳細はこちら</button></a>
                             </div>
                         </div>
                         <div class="item">
@@ -91,7 +91,7 @@
                             <div class="carousel-caption3">
                                 <h1 class="">Fell Free.</h1>
                                 <h3 class="sliderh3 mb-5">お気軽にお問い合わせください。</h3>
-                                <a href='<s:url action="ContactAction"/>'><button type="button" class="btn btn-default btn-md">お問い合わせ</button></a>
+                                <a href='<s:url action="ContactAction"/>'><button type="button" class="btn btn-default btn-hide btn-md">お問い合わせ</button></a>
                             </div>
                         </div>
                     </div>

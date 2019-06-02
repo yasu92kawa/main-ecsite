@@ -19,10 +19,10 @@
                     </div>
                     <div class="text-center mx-auto">
                         <ul class="list-unstyled list-inline mb-5">
-                            <li class="list-inline-item pr-5"><a href="#"><i class="fab fa-facebook text-muted fa-4x"></i></a></li>
-                            <li class="list-inline-item pr-5"><a href="#"><i class="fab fa-instagram text-muted fa-4x"></i></a></li>
-                            <li class="list-inline-item pr-5"><a href="#"><i class="fab fa-twitter text-muted fa-4x"></i></a></li>
-                            <li class="list-inline-item"><a href="#"><i class="fab fa-google-plus-g text-muted fa-4x"></i></a></li>
+                            <li class="list-inline-item pr-5"><a href="#"><i class="footer-icon fab fa-facebook text-muted fa-4x"></i></a></li>
+                            <li class="list-inline-item pr-5"><a href="#"><i class="footer-icon fab fa-instagram text-muted fa-4x"></i></a></li>
+                            <li class="list-inline-item pr-5"><a href="#"><i class="footer-icon fab fa-twitter text-muted fa-4x"></i></a></li>
+                            <li class="list-inline-item"><a href="#"><i class="footer-icon fab fa-google-plus-g text-muted fa-4x"></i></a></li>
                         </ul>
                     </div>
                 </div>
@@ -62,19 +62,19 @@
                         <hr class="light">
                         <h5>Category</h5>
                         <hr class="light">
-                        <a href="">All</a>
-                        <a href="">Shaft</a>
-                        <a href="">Head</a>
-                        <a href="">Helmet</a>
-                        <a href="">Gloves</a>
-                        <a href="">Apparel</a>
-                        <a href="">Shoes</a>
+                        <a href='<s:url action="ProductListAction"/>'>All</a>
+                        <a href='<s:url action="ProductCategoryAction"><s:param name="categoryId" value="1"/></s:url>'>Shaft</a>
+                        <a href='<s:url action="ProductCategoryAction" ><s:param name="categoryId" value="2"/></s:url>'>Head</a>
+                        <a href='<s:url action="ProductCategoryAction" ><s:param name="categoryId" value="3"/></s:url>'>Helmet</a>
+                        <a href='<s:url action="ProductCategoryAction" ><s:param name="categoryId" value="4"/></s:url>'>Gloves</a>
+                        <a href='<s:url action="ProductCategoryAction" ><s:param name="categoryId" value="5"/></s:url>'>Apparel</a>
+                        <a href='<s:url action="ProductCategoryAction" ><s:param name="categoryId" value="6"/></s:url>'>Shoes</a>
                     </div>
                     <div class="col-md-4 footer-shop">
                         <hr class="light">
                         <h5>Shop Info</h5>
                         <hr class="light">
-                        <div class="ggmap mb-2"><iframe src="" width="400" height="300" frameborder="0" style="border:0" allowfullscreen></iframe></div>
+                        <div class="ggmap mb-2"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1630.4368807897565!2d139.66194656333423!3d35.50175509710358!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60185e70b5498369%3A0x8c5300a41995c9ec!2z44CSMjMwLTAwNzcg56We5aWI5bed55yM5qiq5rWc5biC6ba06KaL5Yy65p2x5a-65bC-77yV5LiB55uu77yZ4oiS77yR77yX!5e0!3m2!1sja!2sjp!4v1559365296286!5m2!1sja!2sjp" width="400" height="300" frameborder="0" style="border:0" allowfullscreen></iframe></div>
                         <p>〒230-0077</p>
                         <p>神奈川県横浜市鶴見区東寺尾5-9-17-232</p>
                         <p class="mb-5">Tel : 080-0808-0808</p>

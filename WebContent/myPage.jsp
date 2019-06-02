@@ -119,7 +119,7 @@
 		                            </div>
 	                        </div>
                         </s:iterator>
-                        <div class="text-center pb-5">
+                        <div class="text-center py-3">
 		                	 <a href='<s:url action="CreateDestinationAction"/>' class="text-center mt-2 mb-5">
 			                    <input type="submit" class="btn btn-outline-dark btn-round btn1 " value="新しい住所を登録">
 			                </a>

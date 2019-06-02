@@ -103,74 +103,74 @@
 	                                <a href='<s:url action="PaymentAction"/>' class="regi-btn">CHEAK OUT</a>
 	                        </div>
 	                    </div>
-                    </s:if>
+                   </s:if>
                     <s:else>
                     	<h2 class="text-center font-weight-bold" style=" margin: 0 auto; padding:5vh;">カート情報は存在しません</h2>
-                        <div class="item-category">
-                            <div id="carousel-card1" class="carousel slide">
-                                <ol class="carousel-indicators slide-underline">
-                                    <li data-target="#carousel-card1" data-slide-to="0" class="active"></li>
-                                    <li data-target="#carousel-card1" data-slide-to="1"></li>
-                                </ol>
+                    </s:else>
+                    <div class="item-category">
+                        <div id="carousel-card1" class="carousel slide">
+                            <ol class="carousel-indicators slide-underline">
+                                <li data-target="#carousel-card1" data-slide-to="0" class="active"></li>
+                                <li data-target="#carousel-card1" data-slide-to="1"></li>
+                            </ol>
 
-                                <div class="carousel-inner slide-items" >
-                                    <div class="carousel-item active">
-                                        <div class="row ">
-                                            <div class="col-sm-4 slide-item">
-                                                <a href='<s:url action="ProductCategoryAction"><s:param name="categoryId" value="1"/></s:url>'>
-                                                    <img class="card-img-top" src="images/shaft.png">
-                                                    <h5 class="card-title text-dark text-center pt-2 ">shaft</h5>
-                                                </a>
-                                            </div>
-                                            <div class="col-sm-4 slide-item">
-                                                <a href='<s:url action="ProductCategoryAction" ><s:param name="categoryId" value="2"/></s:url>'>
-                                                    <img class="card-img-top" src="images/head.png">
-                                                    <h5 class="card-title text-dark text-center pt-2 ">head</h5>
-                                                </a>
-                                            </div>
-
-                                            <div class="col-sm-4 slide-item">
-                                                <a href='<s:url action="ProductCategoryAction"><s:param name="categoryId" value="3"/></s:url>'>
-                                                    <img class="card-img-top" src="images/helmet.png">
-                                                    <h5 class="card-title text-dark text-center pt-2 ">helmet</h5>
-                                                </a>
-                                            </div>
+                            <div class="carousel-inner slide-items" >
+                                <div class="carousel-item active">
+                                    <div class="row ">
+                                        <div class="col-4 slide-item">
+                                            <a href='<s:url action="ProductCategoryAction"><s:param name="categoryId" value="1"/></s:url>'>
+                                                <img class="card-img-top" src="images/shaft.png">
+                                                <h5 class="card-title text-dark text-center pt-2 ">shaft</h5>
+                                            </a>
                                         </div>
-                                    </div>
-                                    <div class="carousel-item">
-                                        <div class="row ">
-                                            <div class="col-sm-4 slide-item">
-                                                <a href='<s:url action="ProductCategoryAction"><s:param name="categoryId" value="4"/></s:url>'>
-                                                    <img class="card-img-top" src="images/gloves.png">
-                                                    <h5 class="card-title text-dark text-center pt-2 ">gloves</h5>
-                                                </a>
-                                            </div>
-                                            <div class="col-sm-4 slide-item">
-                                                <a href='<s:url action="ProductCategoryAction"><s:param name="categoryId" value="5"/></s:url>'>
-                                                    <img class="card-img-top" src="images/apparel.png">
-                                                    <h5 class="card-title text-dark text-center pt-2 ">appalel</h5>
-                                                </a>
-                                            </div>
-                                            <div class="col-sm-4 slide-item">
-                                                <a href='<s:url action="ProductCategoryAction"><s:param name="categoryId" value="6"/></s:url>'>
-                                                    <img class="card-img-top" src="images/shoes.png">
-                                                    <h5 class="card-title text-dark text-center pt-2 ">shoes</h5>
-                                                </a>
-                                            </div>
+                                        <div class="col-4 slide-item">
+                                            <a href='<s:url action="ProductCategoryAction" ><s:param name="categoryId" value="2"/></s:url>'>
+                                                <img class="card-img-top" src="images/head.png">
+                                                <h5 class="card-title text-dark text-center pt-2 ">head</h5>
+                                            </a>
+                                        </div>
+
+                                        <div class="col-4 slide-item">
+                                            <a href='<s:url action="ProductCategoryAction"><s:param name="categoryId" value="3"/></s:url>'>
+                                                <img class="card-img-top" src="images/helmet.png">
+                                                <h5 class="card-title text-dark text-center pt-2 ">helmet</h5>
+                                            </a>
                                         </div>
                                     </div>
                                 </div>
-                                <a class="carousel-control-prev" href="#carousel-card1" role="button" data-slide="prev">
-                                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                                    <span class="sr-only">Previous</span>
-                                </a>
-                                <a class="carousel-control-next" href="#carousel-card1" role="button" data-slide="next">
-                                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                                    <span class="sr-only">Next</span>
-                                </a>
+                                <div class="carousel-item">
+                                    <div class="row ">
+                                        <div class="col-4 slide-item">
+                                            <a href='<s:url action="ProductCategoryAction"><s:param name="categoryId" value="4"/></s:url>'>
+                                                <img class="card-img-top" src="images/gloves.png">
+                                                <h5 class="card-title text-dark text-center pt-2 ">gloves</h5>
+                                            </a>
+                                        </div>
+                                        <div class="col-4 slide-item">
+                                            <a href='<s:url action="ProductCategoryAction"><s:param name="categoryId" value="5"/></s:url>'>
+                                                <img class="card-img-top" src="images/apparel.png">
+                                                <h5 class="card-title text-dark text-center pt-2 ">appalel</h5>
+                                            </a>
+                                        </div>
+                                        <div class="col-4 slide-item">
+                                            <a href='<s:url action="ProductCategoryAction"><s:param name="categoryId" value="6"/></s:url>'>
+                                                <img class="card-img-top" src="images/shoes.png">
+                                                <h5 class="card-title text-dark text-center pt-2 ">shoes</h5>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
+                            <a class="carousel-control-prev" href="#carousel-card1" role="button" data-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="sr-only">Previous</span>
+                            </a>
+                            <a class="carousel-control-next" href="#carousel-card1" role="button" data-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="sr-only">Next</span>
+                            </a>
                         </div>
-                    </s:else>
+                    </div>
                 </div>
             </div>
         </section>

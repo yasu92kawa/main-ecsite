@@ -102,9 +102,9 @@
 		                        </div>
 		                    </div>
 		                    <!--関連商品3つ表示-->
-                            <div class="row related-items">
+                            <div class="row related-items mx-auto">
                             	<s:iterator value="relatedProductList">
-                                <div class="col-sm-4 slide-item mx-auto">
+                                <div class="col-4 slide-item">
                                      <a href='<s:url action="ProductDetailAction"><s:param name="productId" value="%{productId}"/></s:url>'>
                                          <img class="card-img-top" src='<s:property value="imageFilePath"/>/<s:property value="imageFileName"/>'>
                                          <h5 class="card-title text-dark text-center pt-2 "><s:property value="productName"/><br></h5>

@@ -53,12 +53,12 @@
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col-md-10 col-sm-12 px-5 items-main">
+                    <div class="col-md-9 col-sm-12 px-5 items-main">
                         <div class="item-category">
                                 <div class="carousel-inner slide-items" >
 	                                <div class="row">
 		                                <s:iterator value="ProductCategoryInfoDTOList">
-		                                    <div class="col-md-4 col-sm-6">
+		                                    <div class="col-md-4 col-6">
 		                                        <div class="slide-item-each">
 			                                         <a href='<s:url action="ProductDetailAction"><s:param name="productId" value="%{productId}"/></s:url>'>
 			                                             <img class="card-img-top" src='<s:property value="imageFilePath"/>/<s:property value="imageFileName"/>'>
@@ -73,7 +73,7 @@
                         </div>
                     </div>
 
-                    <div class="col-md-2 sidebar-right category" role="complementary">
+                    <div class="col-md-3 sidebar-right category" role="complementary">
                         <div class="carousel-inner">
                         <nav class="algo13-sidebar hidden-print">
                             <h3 class="">Category</h3>

@@ -121,7 +121,7 @@
         </section>
         <!-- END Items -->
 
-        <jsp:include page="subHeader.jsp" />
+        <jsp:include page="footer.jsp" />
 
         <!-- JAVASCRIPTS -->
         <script src="js/jquery.min.js"></script>

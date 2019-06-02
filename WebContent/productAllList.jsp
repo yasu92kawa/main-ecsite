@@ -78,20 +78,20 @@
                                 <div class="carousel-inner slide-items" >
                                     <div class="carousel-item active">
                                         <div class="row ">
-                                            <div class="col-sm-4 slide-item">
+                                            <div class="col-4 slide-item">
                                                 <a href='<s:url action="ProductCategoryAction"><s:param name="categoryId" value="1"/></s:url>'>
                                                     <img class="card-img-top" src="images/shaft.png">
                                                     <h5 class="card-title text-dark text-center pt-2 ">shaft</h5>
                                                 </a>
                                             </div>
-                                            <div class="col-sm-4 slide-item">
+                                            <div class="col-4 slide-item">
                                                 <a href='<s:url action="ProductCategoryAction" ><s:param name="categoryId" value="2"/></s:url>'>
                                                     <img class="card-img-top" src="images/head.png">
                                                     <h5 class="card-title text-dark text-center pt-2 ">head</h5>
                                                 </a>
                                             </div>
 
-                                            <div class="col-sm-4 slide-item">
+                                            <div class="col-4 slide-item">
                                                 <a href='<s:url action="ProductCategoryAction" ><s:param name="categoryId" value="3"/></s:url>'>
                                                     <img class="card-img-top" src="images/helmet.png">
                                                     <h5 class="card-title text-dark text-center pt-2 ">helmet</h5>
@@ -101,19 +101,19 @@
                                     </div>
                                     <div class="carousel-item">
                                         <div class="row ">
-                                            <div class="col-sm-4 slide-item">
+                                            <div class="col-4 slide-item">
                                                 <a href='<s:url action="ProductCategoryAction" ><s:param name="categoryId" value="4"/></s:url>'>
                                                     <img class="card-img-top" src="images/gloves.png">
                                                     <h5 class="card-title text-dark text-center pt-2 ">gloves</h5>
                                                 </a>
                                             </div>
-                                            <div class="col-sm-4 slide-item">
+                                            <div class="col-4 slide-item">
                                                 <a href='<s:url action="ProductCategoryAction" ><s:param name="categoryId" value="5"/></s:url>'>
                                                     <img class="card-img-top" src="images/apparel.png">
                                                     <h5 class="card-title text-dark text-center pt-2 ">appalel</h5>
                                                 </a>
                                             </div>
-                                            <div class="col-sm-4 slide-item">
+                                            <div class="col-4 slide-item">
                                                 <a href='<s:url action="ProductCategoryAction" ><s:param name="categoryId" value="6"/></s:url>'>
                                                     <img class="card-img-top" src="images/shoes.png">
                                                     <h5 class="card-title text-dark text-center pt-2 ">shoes</h5>
@@ -146,7 +146,7 @@
                                     <div class="carousel-item active">
                                         <div class="row ">
 	                                        <s:iterator value="sliderProductList1_1">
-	                                            <div class="col-sm-4 slide-item">
+	                                            <div class="col-4 slide-item">
 	                                                <a href='<s:url action="ProductDetailAction"><s:param name="productId" value="%{productId}"/></s:url>'>
 	                                                    <img class="card-img-top" src='<s:property value="imageFilePath"/>/<s:property value="imageFileName"/>'>
 	                                                    <h5 class="card-title text-dark text-center pt-2 "><s:property value="productName"/><br></h5>
@@ -158,7 +158,7 @@
                                     <div class="carousel-item">
                                     	<div class="row ">
 	                                    	<s:iterator value="sliderProductList1_2">
-												<div class="col-sm-4 slide-item">
+												<div class="col-4 slide-item">
 													<a href='<s:url action="ProductDetailAction"><s:param name="productId" value="%{productId}"/></s:url>'>
 														<img class="card-img-top" src='<s:property value="imageFilePath"/>/<s:property value="imageFileName"/>' />
 														<h5 class="card-title text-dark text-center pt-2 "><s:property value="productName"/></h5>
@@ -195,7 +195,7 @@
                                     <div class="carousel-item active">
                                         <div class="row ">
 	                                        <s:iterator value="sliderProductList2_1">
-	                                            <div class="col-sm-4 slide-item">
+	                                            <div class="col-4 slide-item">
 	                                                <a href='<s:url action="ProductDetailAction"><s:param name="productId" value="%{productId}"/></s:url>'>
 	                                                    <img class="card-img-top" src='<s:property value="imageFilePath"/>/<s:property value="imageFileName"/>'>
 	                                                    <h5 class="card-title text-dark text-center pt-2 "><s:property value="productName"/><br></h5>
@@ -207,7 +207,7 @@
                                     <div class="carousel-item">
                                     	<div class="row ">
 	                                    	<s:iterator value="sliderProductList2_2">
-												<div class="col-sm-4 slide-item">
+												<div class="col-4 slide-item">
 													<a href='<s:url action="ProductDetailAction"><s:param name="productId" value="%{productId}"/></s:url>'>
 														<img class="card-img-top" src='<s:property value="imageFilePath"/>/<s:property value="imageFileName"/>' />
 														<h5 class="card-title text-dark text-center pt-2 "><s:property value="productName"/></h5>
@@ -243,7 +243,7 @@
                                     <div class="carousel-item active">
                                         <div class="row ">
 	                                        <s:iterator value="sliderProductList3_1">
-	                                            <div class="col-sm-4 slide-item">
+	                                            <div class="col-4 slide-item">
 	                                                <a href='<s:url action="ProductDetailAction"><s:param name="productId" value="%{productId}"/></s:url>'>
 	                                                    <img class="card-img-top" src='<s:property value="imageFilePath"/>/<s:property value="imageFileName"/>'>
 	                                                    <h5 class="card-title text-dark text-center pt-2 "><s:property value="productName"/><br></h5>
@@ -255,7 +255,7 @@
                                     <div class="carousel-item">
                                     	<div class="row ">
 	                                    	<s:iterator value="sliderProductList3_2">
-												<div class="col-sm-4 slide-item">
+												<div class="col-4 slide-item">
 													<a href='<s:url action="ProductDetailAction"><s:param name="productId" value="%{productId}"/></s:url>'>
 														<img class="card-img-top" src='<s:property value="imageFilePath"/>/<s:property value="imageFileName"/>' />
 														<h5 class="card-title text-dark text-center pt-2 "><s:property value="productName"/></h5>
@@ -291,7 +291,7 @@
                                     <div class="carousel-item active">
                                         <div class="row ">
 	                                        <s:iterator value="sliderProductList4_1">
-	                                            <div class="col-sm-4 slide-item">
+	                                            <div class="col-4 slide-item">
 	                                                <a href='<s:url action="ProductDetailAction"><s:param name="productId" value="%{productId}"/></s:url>'>
 	                                                    <img class="card-img-top" src='<s:property value="imageFilePath"/>/<s:property value="imageFileName"/>'>
 	                                                    <h5 class="card-title text-dark text-center pt-2 "><s:property value="productName"/><br></h5>
@@ -303,7 +303,7 @@
                                     <div class="carousel-item">
                                     	<div class="row ">
 	                                    	<s:iterator value="sliderProductList4_2">
-												<div class="col-sm-4 slide-item">
+												<div class="col-4 slide-item">
 													<a href='<s:url action="ProductDetailAction"><s:param name="productId" value="%{productId}"/></s:url>'>
 														<img class="card-img-top" src='<s:property value="imageFilePath"/>/<s:property value="imageFileName"/>' />
 														<h5 class="card-title text-dark text-center pt-2 "><s:property value="productName"/></h5>
@@ -339,7 +339,7 @@
                                     <div class="carousel-item active">
                                         <div class="row ">
 	                                        <s:iterator value="sliderProductList5_1">
-	                                            <div class="col-sm-4 slide-item">
+	                                            <div class="col-4 slide-item">
 	                                                <a href='<s:url action="ProductDetailAction"><s:param name="productId" value="%{productId}"/></s:url>'>
 	                                                    <img class="card-img-top" src='<s:property value="imageFilePath"/>/<s:property value="imageFileName"/>'>
 	                                                    <h5 class="card-title text-dark text-center pt-2 "><s:property value="productName"/><br></h5>
@@ -351,7 +351,7 @@
                                     <div class="carousel-item">
                                     	<div class="row ">
 	                                    	<s:iterator value="sliderProductList5_2">
-												<div class="col-sm-4 slide-item">
+												<div class="col-4 slide-item">
 													<a href='<s:url action="ProductDetailAction"><s:param name="productId" value="%{productId}"/></s:url>'>
 														<img class="card-img-top" src='<s:property value="imageFilePath"/>/<s:property value="imageFileName"/>' />
 														<h5 class="card-title text-dark text-center pt-2 "><s:property value="productName"/></h5>
@@ -387,7 +387,7 @@
                                     <div class="carousel-item active">
                                         <div class="row ">
 	                                        <s:iterator value="sliderProductList6_1">
-	                                            <div class="col-sm-4 slide-item">
+	                                            <div class="col-4 slide-item">
 	                                                <a href='<s:url action="ProductDetailAction"><s:param name="productId" value="%{productId}"/></s:url>'>
 	                                                    <img class="card-img-top" src='<s:property value="imageFilePath"/>/<s:property value="imageFileName"/>'>
 	                                                    <h5 class="card-title text-dark text-center pt-2 "><s:property value="productName"/><br></h5>
@@ -399,7 +399,7 @@
                                     <div class="carousel-item">
                                     	<div class="row ">
 	                                    	<s:iterator value="sliderProductList6_2">
-												<div class="col-sm-4 slide-item">
+												<div class="col-4 slide-item">
 													<a href='<s:url action="ProductDetailAction"><s:param name="productId" value="%{productId}"/></s:url>'>
 														<img class="card-img-top" src='<s:property value="imageFilePath"/>/<s:property value="imageFileName"/>' />
 														<h5 class="card-title text-dark text-center pt-2 "><s:property value="productName"/></h5>

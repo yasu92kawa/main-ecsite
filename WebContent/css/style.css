@@ -2,19 +2,27 @@
 /***********************
     1.BASIC
     2.HELPER
-    3.NAVBAR
-    4.HOME
-    5.ABOUT
-    6.SERVICES
-    7.CLIENT
-    8.WORK
-    9.CONTACT
-    10.FOOTER
-    11.RESPONSIVE
+    3.NAVBAR CUSTOM
+    4.NAVBAR SUB
+    5.HOME
+    6.Slider
+    7.ITEMS
+    8.SNS
+    9.FOOTER
+    10.All Items
+	11.Item-details
+	12.Cart
+	13.Contact
+	14.LOGIN
+	15.USER CREATE
+	16.USER ADRRESS
+	17.Order
+	18.MyPage
+	19.RESPONSIVE MAIN
+	20.RESPONSIVE SUB
 ************************/
 
 @import url('https://fonts.googleapis.com/css?family=Montserrat:400,500,600|Nunito:400,600,700');
-
 @import url(https://fonts.googleapis.com/css?family=Raleway:400,800);
 
 /*======================
@@ -264,7 +272,7 @@ button:focus {
 }
 
 /*==========================
-        3.NAVBAR SUB
+        4.NAVBAR SUB
 ============================*/
 
 .sub-nav {
@@ -368,11 +376,11 @@ button:focus {
 
 .logo-dark2{
 	height:60px!important;
-	margin-left: 10vw;
+	margin-left: 6vw;
 }
 
 /*===========================
-        4.HOME
+        5.HOME
 =============================*/
 
 
@@ -400,7 +408,7 @@ button:focus {
 
 
 /*===========================
-        5.Slider
+        6.Slider
 =============================*/
 
 .worksslider{
@@ -410,6 +418,10 @@ button:focus {
 
 .worksslider img{
     margin: 0 auto;
+}
+
+.carousel-indicators{
+
 }
 
 .carousel-indicators .active {
@@ -476,7 +488,7 @@ button:focus {
 
 
 /*===========================
-        6.ITEMS
+        7.ITEMS
 =============================*/
 
 figure.itembox {
@@ -559,7 +571,7 @@ figure.itembox {
   }
 
 /*===========================
-        6.SNS
+        8.SNS
 =============================*/
 
 .list-inline-item:hover {
@@ -569,7 +581,7 @@ figure.itembox {
 
 
 /*======================
-        7.FOOTER
+        9.FOOTER
 ========================*/
 
 .footer{
@@ -664,9 +676,13 @@ figure.itembox {
     text-align: center;
 }
 
+.footer-icon{
+	width:10vw!important;
+}
+
 
 /*===========================
-        9.All Items
+        10.All Items
 =============================*/
 
 .category li{
@@ -775,7 +791,7 @@ figure.itembox {
 
 }
 .carousel-indicators li{
-    padding-top: 30px
+    padding-top: 8px;
 }
 
 /* 必須のスタイル指定(affix用) */
@@ -796,7 +812,7 @@ figure.itembox {
 }
 
 /*===========================
-        10.Item-details
+        11.Item-details
 =============================*/
 
 .item-photo{
@@ -917,7 +933,7 @@ figure.itembox {
 
 
 /*===========================
-        11.Cart
+        12.Cart
 =============================*/
 
 .cart-items hr{
@@ -983,7 +999,7 @@ figure.itembox {
 
 
 /*===========================
-        12.Contact
+        13.Contact
 =============================*/
 
 .home-btn form{
@@ -1004,7 +1020,7 @@ figure.itembox {
 
 
 /*===========================
-        13.LOGIN
+        14.LOGIN
 =============================*/
 
 
@@ -1014,10 +1030,11 @@ figure.itembox {
 
 .panel{
     margin: 0 auto;
-    width: 456px;
+    width: 95%;
     height: auto;
     background-color: #f5f5f5! important;
     padding: 5%;
+    max-width: 480px;
 }
 
 .panel form{
@@ -1051,7 +1068,7 @@ figure.itembox {
 
 
 /*===========================
-        14.USER CREATE
+        15.USER CREATE
 =============================*/
 
 .panel p{
@@ -1073,7 +1090,7 @@ figure.itembox {
 }
 
 /*===========================
-        15.USER ADRRESS
+        16.USER ADRRESS
 =============================*/
 
 .each-address {
@@ -1115,7 +1132,7 @@ figure.itembox {
 }
 
 /*===========================
-        16.Order
+        17.Order
 =============================*/
 
 .order-address{
@@ -1144,13 +1161,12 @@ figure.itembox {
 }
 
 /*===========================
-        17.MyPage
+        18.MyPage
 =============================*/
 
 /*タブ切り替え全体のスタイル*/
 .tabs {
     margin-top: 50px;
-    padding-bottom: 40px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
     width: 700px;
     margin: 0 auto;}
@@ -1206,7 +1222,7 @@ figure.itembox {
 
   .pernonal_info{
     margin: 0 auto;
-    width: 456px;
+    width: 100%;
     height: auto;
     padding: 5%;
 }
@@ -1236,7 +1252,7 @@ figure.itembox {
 
 
 /*===========================
-        11.RESPONSIVE MAIN
+        19.RESPONSIVE MAIN
 =============================*/
 
 @media (min-width: 200px) and (max-width: 768px) {
@@ -1266,8 +1282,6 @@ figure.itembox {
         display:none;
     }
 
-
-
     .h-100vh{
         height:auto;
     }
@@ -1285,12 +1299,11 @@ figure.itembox {
         width: 100%;
     }
 
-
 }
 
 
 /*===========================
-        12.RESPONSIVE SUB
+        20.RESPONSIVE SUB
 =============================*/
 
 @media (min-width: 200px) and (max-width: 768px) {
@@ -1347,6 +1360,17 @@ figure.itembox {
 
     }
 
+    .btn-top{
+    	display:none;
+    }
+
+    .btn-hide{
+    	display: none!important;
+    }
+    .logo-dark2{
+	height:60px!important;
+	margin-left: 10vw;
+	}
 
 }
 
@@ -1354,7 +1378,6 @@ figure.itembox {
     .category{
         position: none;
     }
-
 
 
 }

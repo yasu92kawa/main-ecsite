@@ -63,7 +63,7 @@
 								</div>
 							</s:if>
                             <div class="form-group">
-                                <s:textfield type="text" name="familyName" value="userInfoDTO.familyName" class="form-control" />
+                                <s:textfield type="text" name="familyName"  class="form-control" />
                             </div>
                             <p>名（全角）</p>
                             <s:if test="firstNameErrorList!=null && firstNameErrorList.size()>0">
@@ -72,7 +72,7 @@
 								</div>
 							</s:if>
                             <div class="form-group">
-                                <s:textfield name="firstName" value="userInfoDTO.firstName" id="name" type="text" class="form-control" />
+                                <s:textfield name="firstName" id="name" type="text" class="form-control" />
                             </div>
                             <p>姓（かな）</p>
                             <s:if test="familyNameKanaErrorList!=null && familyNameKanaErrorList.size()>0">
@@ -81,7 +81,7 @@
 								</div>
 							</s:if>
                             <div class="form-group">
-                                <s:textfield name="familyNameKana" value="userInfoDTO.familyNameKana" id="name" type="text" class="form-control"  />
+                                <s:textfield name="familyNameKana" id="name" type="text" class="form-control"  />
                             </div>
                             <p>名（かな）</p>
                             <s:if test="firstNameKanaErrorList!=null && firstNameKanaErrorList.size()>0">
@@ -90,7 +90,7 @@
 								</div>
 							</s:if>
                             <div class="form-group">
-                                <s:textfield name="firstNameKana" value="userInfoDTO.firstNameKana" id="name" type="text" class="form-control" />
+                                <s:textfield name="firstNameKana" id="name" type="text" class="form-control" />
                             </div>
                             <p>性別</p>
                             <div class="form-group border-0 text-left">
@@ -104,7 +104,7 @@
 								</div>
 							</s:if>
                             <div class="form-group mt-2">
-                                <s:textfield name="email" value="userInfoDTO.email" id="email" type="email" class="form-control"  />
+                                <s:textfield name="email" id="email" type="email" class="form-control"  />
                             </div>
 
                             <button type="submit" class="login-submit btn btn-custom">CHANGE INFO</button>

@@ -24,12 +24,32 @@
         });
     },
 
-    KerriApp.prototype.init = function() {
-        this.initStickyMenu();
-        this.initScrollspy();
+  //Scrollspy
+    KerriApp.prototype.initScrollspy = function() {
+        $("#navbarCollapse").scrollspy({
+            offset:20
+        });
+    },
+
+  //Typed
+    KerriApp.prototype.initTextType = function() {
+        $(".element").each(function() {
+            var $this = $(this);
+            $this.typed({
+                strings: $this.attr('data-elements').split(','),
+                typeSpeed: 100,
+                backDelay: 3000
+            });
+        });
     },
 
 
+
+    KerriApp.prototype.init = function() {
+        this.initStickyMenu();
+        this.initScrollspy();
+        this.initTextType();
+    },
     //init
     $.KerriApp = new KerriApp, $.KerriApp.Constructor = KerriApp
 }(window.jQuery),
